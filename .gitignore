@@ -1,0 +1,6 @@
+*.bak
+*.swp
+*.swo
+*.tdy
+*.tar.gz
+Perl-PrereqScanner-Scanner-DistBuild-*

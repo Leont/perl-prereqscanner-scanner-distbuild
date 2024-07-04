@@ -1,0 +1,19 @@
+NAME
+
+    Perl::PrereqScanner::Scanner::DistBuild - INSERT YOUR ABSTRACT HERE
+
+DESCRIPTION
+
+    Write a full description of the module and its features here.
+
+AUTHOR
+
+    Leon Timmermans <fawaka@gmail.com>
+
+COPYRIGHT AND LICENSE
+
+    This software is copyright (c) 2024 by Leon Timmermans.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
