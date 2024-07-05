@@ -8,3 +8,4 @@ META.yml
 README
 dist.json
 lib/Perl/PrereqScanner/Scanner/DistBuild.pm
+t/basic.t
