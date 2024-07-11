@@ -2,7 +2,7 @@ package Perl::PrereqScanner::Scanner::DistBuild;
 use strict;
 use warnings;
 
-our $VERSION = '0.000';
+our $VERSION = '0.001';
 
 use Moo;
 with 'Perl::PrereqScanner::Scanner';
