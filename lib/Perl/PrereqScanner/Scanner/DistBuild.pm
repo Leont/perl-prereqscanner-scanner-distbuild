@@ -20,6 +20,8 @@ sub scan_for_prereqs {
 	foreach my $hunk ( @chunks ) {
 		my ($load_module, @arguments) = @$hunk;
 
+		pop @arguments if @arguments > 1 && $arguments[-1]->isa('PPI::Token::Structure') && $arguments[-1]->content eq ';';
+
 		if (@arguments == 1) {
 			if ($arguments[0]->isa('PPI::Structure::List')) {
 				@arguments = $arguments[0]->children;
